@@ -21,3 +21,27 @@ This project implements Canny edge detection to identify cell features in a micr
 ```bash
 cd /Users/andrewh/WebstormProjects/comp4932-assignment3
 python3 -m venv venv
+```
+
+### Step 2: Activate Virtual Environment
+
+**On macOS/Linux:**
+```bash
+source venv/bin/activate
+```
+
+### Step 3: Install Dependencies
+
+```bash
+pip install opencv-python matplotlib
+```
+
+### Step 4: Run the Script
+
+```bash
+python canny_edge_detection.py
+```
+
+### Output
+
+- The script will display the original image, the edges detected with default parameters, and the edges detected with optimized parameters.
